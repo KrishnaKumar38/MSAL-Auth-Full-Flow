@@ -27,7 +27,7 @@ function CallApi() {
 
     const token = response.accessToken;
     console.log(token);
-    const result = await fetch("https://localhost:44305/WeatherForecast", {
+    const result = await fetch("your backend api endpoint", {
       headers: {
         Authorization: `Bearer ${token}`
       }
