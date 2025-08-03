@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\AuthFlowLearning\\BackAPI\\MyNetAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC8E149-B8C1-4D71-90C3-EFBAD7CB9DCD}|MyNetAPI\\MyNetAPI.csproj|d:\\authflowlearning\\backapi\\mynetapi\\mynetapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC8E149-B8C1-4D71-90C3-EFBAD7CB9DCD}|MyNetAPI\\MyNetAPI.csproj|solutionrelative:mynetapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC8E149-B8C1-4D71-90C3-EFBAD7CB9DCD}|MyNetAPI\\MyNetAPI.csproj|d:\\authflowlearning\\backapi\\mynetapi\\mynetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC8E149-B8C1-4D71-90C3-EFBAD7CB9DCD}|MyNetAPI\\MyNetAPI.csproj|solutionrelative:mynetapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\AuthFlowLearning\\BackAPI\\MyNetAPI\\MyNetAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MyNetAPI\\Program.cs",
+              "ToolTip": "D:\\AuthFlowLearning\\BackAPI\\MyNetAPI\\MyNetAPI\\Program.cs",
+              "RelativeToolTip": "MyNetAPI\\Program.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwCsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T13:41:17.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\AuthFlowLearning\\BackAPI\\MyNetAPI\\MyNetAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MyNetAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\AuthFlowLearning\\BackAPI\\MyNetAPI\\MyNetAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "MyNetAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwBgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T13:40:57.604Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
