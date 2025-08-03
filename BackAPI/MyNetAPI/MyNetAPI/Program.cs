@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-var allowedOrigin = "http://localhost:5173"; 
+var allowedOrigin = "your front end app localhost URl / deployed proper url"; 
 
 builder.Services.AddCors(options =>
 {
@@ -23,12 +23,12 @@ builder.Services.AddCors(options =>
 builder.Services.AddAuthentication("Bearer")
     .AddJwtBearer("Bearer", options =>
     {
-        options.Authority = "https://login.microsoftonline.com/e0e2801f-e3b2-4a87-a94a-4e2a8334f200";
+        options.Authority = "https://login.microsoftonline.com/<tenantid>";
 
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateAudience = true,
-            ValidAudience = "api://16d8a3d8-8d75-4fa4-811b-179284cd1865"
+            ValidAudience = "api://<clientid>"
         };
 
         options.Events = new JwtBearerEvents
@@ -36,7 +36,7 @@ builder.Services.AddAuthentication("Bearer")
             OnAuthenticationFailed = context =>
             {
                 string tokenval = context.Request.Headers["Authorization"].FirstOrDefault() ?? "";
-                bool isvalidtoken = (tokenval.Split('.').Length == 3 || tokenval.Split('.').Length == 5);
+                bool isvalidtoken = (tokenval.Split('.').Length == 3 || tokenval.Split('.').Length == 5); // to check token is in JWS format
                 Console.WriteLine("Authentication failed: " + context.Exception.Message);
                 return Task.CompletedTask;
             },
